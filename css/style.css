@@ -37,16 +37,17 @@ header nav ul{
 
 header nav ul li{
     color: whitesmoke;
-    font-size: 1em;
+    font-size: 1rem;
 
 }
 
 
 .footer {
     margin-top: 1rem;
+    background-color: black;
+    width: 100%;
     text-align: center;
     color: white;
-    background-color: black;
 }
 
 
@@ -139,10 +140,12 @@ label {
     display: flex;
     justify-content: center;
 }
+.mainqs footer{
+    width: 100%;
+    height: auto;
 
-.logoelement{
-    display: flex;
-    height: 100px;
-    width: 100px;
 }
-
+.imagen{ 
+    width: 100%;
+    height: auto;
+}
