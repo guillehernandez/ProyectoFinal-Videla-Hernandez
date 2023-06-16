@@ -149,3 +149,19 @@ label {
     width: 100%;
     height: auto;
 }
+
+.productoselement{
+    text-align: center;
+    padding: 2rem;
+}
+
+.carousel-inner{
+    max-height: 39rem;
+}
+
+@media (max-widht:768px) {
+    #intro { 
+        width: 90% !important;
+    }
+}
+

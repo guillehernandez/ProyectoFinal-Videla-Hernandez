@@ -39,24 +39,63 @@
 
 <body>
 
-    <main class="maincontacto">
-    <form class="formulario" action="">
-        <legend>Contactanos</legend>
-        <div class="labels">
-        <label for="">
-            Nombre y apellido
-        </label>
-        <input type="text" name="" id="" placeholder="Ingrese su nombre y apellido">
-        </div>
-        <div>
-        <label for="">
-            Email 
-        </label>
-        <input type="email" name="" id="" placeholder="Ingrese email">
+ <div class="container"> 
+  <form class="row g-3 mt-3">
+
+    <div class="col-6">
+      <label for="emailImput" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputPass" placeholder="Escribe tu email">
+
+
     </div>
-    </form>
-    
-    </main>
+
+    <div class="col-6">
+      <label for="inputPass" class="form-label">Contrasenia</label>
+      <input type="password" class="form-control" id="inputPass" placeholder="Contrasenia">
+    </div>
+
+    <div class="col-12"> 
+      <label for="inputAdress" class="form-label"> Direccion </label>
+      <input type="text" class="form-control" id="inputAdress" placeholder="Direccion">
+
+    </div>
+
+    <div class="col-12"> 
+      <label for="inputAdress" class="form-label"> Direccion 2 </label>
+      <input type="text" class="form-control" id="inputAdress" placeholder="Direccion">
+
+    </div>
+
+    <div class="col-6">
+      <label for="cityInput" class="form-label">Ciudad</label>
+      <input type="text" class="form-control" id="cityInput" placeholder="Ciudad">
+    </div>
+
+    <div class="col-3">
+      <label for="postalCodeInput" class="form-label">Codigo postal</label>
+      <input type="text" class="form-control" id="postalCodeInput" placeholder="Ciudad">
+    </div>
+
+    <div class="col-3">
+      <label for="countryInput" class="form-label">Pais</label>
+      <input type="text" class="form-control" id="countryInput" placeholder="Pais">
+    </div>
+
+    <div class="col-12">
+      <div class="form-check">
+      <input type="checkbox" id="checkTerms" class="form-check-input">
+      </div>
+      <label for="checkTerms" class="form-check-label">Acepto los terminos y condiciones</label>
+
+    </div>
+
+    <div class="col-12">
+      <button type="submit" class="btn btn-dark">Registrate</button>
+    </div>
+
+  </form>
+
+ </div>
 
     <footer class="footer">
     <p> Element todos los derechos reservados</p>
