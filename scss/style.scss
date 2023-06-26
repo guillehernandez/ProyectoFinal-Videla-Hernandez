@@ -1,1 +1,31 @@
- 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+@import "footer";
+@import 'quienesSomos';
+
+a {
+    color: rgb(206, 196, 196);
+    font-size: 20px;
+}
+
+
+.logoelement {
+    width: 200px;
+}
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+@media (max-widht:768px) {
+    #intro {
+        width: 90% !important;
+    }
+}
+
